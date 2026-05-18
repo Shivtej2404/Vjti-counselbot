@@ -408,22 +408,22 @@ def main():
                     st.components.v1.html(file_html(pie, CDN), height=600)
 
                     st.markdown("<h3 style='color:#60a5fa'>📖 More on the Subjects</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {subjects[int(l[i])]}"):
                             st.write(df_sub['about'][int(l[i]) - 1])
 
                     st.markdown("<h3 style='color:#60a5fa'>🎓 Choice of Degrees</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {subjects[int(l[i])]}"):
                             st.write(df_sub['further career'][int(l[i]) - 1])
 
                     st.markdown("<h3 style='color:#60a5fa'>📈 Trends Over the Years</h3>", unsafe_allow_html=True)
-                    y = [Convert(df_sub['trends'][int(l[i]) - 1]) for i in range(4)]
+                    y = [Convert(df_sub['trends'][int(l[i]) - 1]) for i in range(len(l))]
                     line = make_line("Subject Trends", out, y)
                     st.components.v1.html(file_html(line, CDN), height=500)
 
                     st.markdown("<h3 style='color:#60a5fa'>📞 Expert Contacts</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {subjects[int(l[i])]}"):
                             xl = df_sub['contacts'][int(l[i]) - 1].split(",")
                             for k in xl:
@@ -465,7 +465,7 @@ def main():
                             st.write("Rs. " + str(df_grad['avgsal'][int(l[i]) - 1]))
 
                     st.markdown("<h3 style='color:#60a5fa'>📈 Trends Over the Years</h3>", unsafe_allow_html=True)
-                    y = [Convert(df_grad['trends'][int(l[i]) - 1]) for i in range(4)]
+                    y = [Convert(df_grad['trends'][int(l[i]) - 1]) for i in range(len(l))]
                     line = make_line("Field Trends", out, y)
                     st.components.v1.html(file_html(line, CDN), height=500)
 
@@ -501,22 +501,22 @@ def main():
                     st.components.v1.html(file_html(pie, CDN), height=600)
 
                     st.markdown("<h3 style='color:#60a5fa'>📖 More on the Professions</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {professions[int(l[i])]}"):
                             st.write(df_occ['Information'][int(l[i]) - 1])
 
                     st.markdown("<h3 style='color:#60a5fa'>💰 Monthly Income</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {professions[int(l[i])]}"):
                             st.write("Rs. " + str(df_occ['Income'][int(l[i]) - 1]))
 
                     st.markdown("<h3 style='color:#60a5fa'>📈 Trends Over the Years</h3>", unsafe_allow_html=True)
-                    y = [Convert(df_occ['trends'][int(l[i]) - 1]) for i in range(4)]
+                    y = [Convert(df_occ['trends'][int(l[i]) - 1]) for i in range(len(l))]
                     line = make_line("Profession Trends", out, y)
                     st.components.v1.html(file_html(line, CDN), height=500)
 
                     st.markdown("<h3 style='color:#60a5fa'>📞 Expert Contacts</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {professions[int(l[i])]}"):
                             xl = df_occ['contacts'][int(l[i]) - 1].split(",")
                             for k in xl:
