@@ -1,0 +1,76 @@
+bot,labels
+"Hello, nice to meet you",15
+Happy to have you here,15
+Good to see you again,15
+"Hi there, how can I help?",15
+"Hi, I'm VJTI's CounselBot. How can I assist you today?",19
+I'm VJTI's CounselBot,19
+Call me CounselBot,19
+Have a lovely time!,9
+Have a wonderful day,9
+Suite yourself,9
+Have fun!,9
+Happy to help!,16
+Any time!,16
+My pleasure,16
+Do enjoy the game,16
+Have fun on tennis court,16
+"Sorry, kindly rephrase the question",7
+"Sorry, I can't understand that. Could you try asking differently?",7
+Please give me more information,7
+Not sure I understand,7
+I can guide you through how to get started with your career,13
+"I know quite a lot about career selection, choices, scope and many more topics",2
+"I can help with careers in science, humanities, engineering, commerce, arts and many more streams",2
+Ask me a question about career choices and I will answer to the best of my knowledge,2
+"As of 2024, the top career paths are Data Science, AI/ML, Healthcare, Engineering, Law, Business Analytics and Cybersecurity",18
+"The general sub-streams in science are biology, physics, chemistry, computer science, biochemistry, biophysics, agriculture, environmental science, biotechnology, and many more.",0
+"The general sub-streams in arts are visual communication, journalism, interior design, English literature, psychology, sociology, foreign languages, film studies and many more.",1
+"The general sub-streams in commerce are accounting, economics, finance, information science, human resource management, tourism, business administration and many more.",6
+"The job opportunities in civil services are IAS, IPS, IFS, audit and accounting, postal service, armed forces, corporate law service and many more.",5
+"The branches in engineering are computer science, biotechnology, electronics and communication, chemical, civil, aerospace, electrical, bioinformatics, artificial intelligence and many more.",10
+"Your results will be displayed in a detailed manner once you take the test. It will include a list of all possible career choices you have an aptitude for.",14
+It's never too late to change your career if you do not see yourself thriving in that field. Taking our career guidance test would help you streamline your choices.,4
+"The results will be followed by contacts of a few experts in the field. You can contact them for further guidance and support.",12
+"The test comprises of multiple choice questions based on general aptitude, area of interest and personality assessment.",11
+"Yes, you can switch streams even after picking one. It's never too late. Take our personality test to find out what your strengths are!",3
+"It's not necessary to spend excessive time in any field to succeed. Your interests, strengths, and attitude towards learning is what matters the most.",17
+"The only way to choose a fulfilling career is to explore a wide spectrum of choices. All disciplines are interconnected. Start with what you love!",8
+"Data Science is one of the most in-demand careers today. It involves analyzing large datasets to derive insights and support decision-making.",2
+"Artificial Intelligence and Machine Learning are revolutionizing every industry. Careers in AI/ML offer excellent growth and salary prospects.",2
+"Cybersecurity is a rapidly growing field. As digital threats increase, organizations need skilled security professionals to protect their systems.",2
+"Engineering is a versatile field with branches like Computer Science, Mechanical, Civil, Electrical, Chemical and many more. Each has excellent career prospects.",10
+"Medicine and Healthcare offer highly rewarding careers. Options include MBBS, BDS, Pharmacy, Physiotherapy, Nursing and many allied health sciences.",2
+"Law is a prestigious career path. You can specialize in corporate law, criminal law, civil law, international law, intellectual property law and many more.",5
+"Commerce graduates have great opportunities in banking, finance, accounting, management, economics and entrepreneurship.",6
+"The humanities stream opens doors to careers in journalism, social work, teaching, psychology, public administration and creative arts.",1
+"Pursuing an MBA after graduation can open up leadership and managerial roles across all industries.",2
+"Entrepreneurship is a great career option if you are passionate, risk-tolerant and have innovative ideas. Many successful startups began with young entrepreneurs.",2
+"To pursue engineering, you need to appear for JEE Main and JEE Advanced in India. For medical, NEET is the primary entrance exam.",10
+"For studying abroad, you need to prepare for exams like GRE, GMAT, IELTS or TOEFL depending on the country and course.",2
+"Scholarships are available from many organizations including government bodies, universities, and private foundations. Research early and apply on time.",2
+"Internships are extremely valuable. They give you real-world experience, help build your network, and often lead to full-time job offers.",2
+"Soft skills like communication, teamwork, problem-solving and adaptability are as important as technical knowledge in today's job market.",2
+"The salary in IT sector ranges from Rs 3 LPA for freshers to over Rs 40 LPA for experienced professionals depending on skills and company.",2
+"Finance and Banking sector offers competitive salaries. Fresh graduates typically earn between Rs 3-6 LPA with growth potential over time.",6
+"Healthcare professionals earn well in India. Doctors can earn Rs 6-20 LPA while specialists earn significantly more.",2
+"The test will help identify your strengths and match them with the best-suited career options based on your personality.",11
+"You can retake the test anytime. The more honestly you answer, the more accurate your results will be.",14
+"Career counseling helps students make informed decisions about their future. It considers your interests, aptitude, values, and market trends.",13
+"Vocational training is an excellent option for those who prefer skill-based learning. It leads to quick employment in trades like electrician, plumber, beautician, chef and more.",2
+"Digital Marketing is a rapidly growing field. Skills in SEO, content marketing, social media, and analytics are highly sought after.",2
+"Graphic Design and UI/UX Design are creative careers with excellent demand in the digital age. Tools like Figma, Adobe XD and Photoshop are essential.",2
+"Teaching and education are noble and stable career paths. You can teach at schools, colleges, or online platforms.",2
+"Social work and NGO careers are fulfilling options for those who want to make a difference in society.",1
+"Sports management, coaching and sports science are emerging career paths for those passionate about athletics.",2
+"Animation, gaming and visual effects are booming creative industries offering exciting career prospects.",1
+"Environmental science and sustainability careers are growing as the world focuses on climate change and green energy.",0
+"Psychology offers careers in clinical psychology, counseling, organizational behavior, research and many more areas.",2
+"Fashion design is a competitive but rewarding career for those with creativity and passion for the fashion industry.",1
+"Hotel management and hospitality offer global career opportunities in hotels, airlines, event management and tourism.",2
+"Defense services including Army, Navy and Air Force offer prestigious and secure career options for disciplined candidates.",5
+"Architecture combines creativity and engineering. It requires clearing NATA exam in India and offers fulfilling creative careers.",10
+"Chartered Accountancy (CA) is one of the most respected finance qualifications in India, offering excellent career prospects.",6
+"Company Secretary (CS) is a rewarding career in corporate governance, legal compliance and strategic management.",6
+"I recommend taking our personality test to get personalized career recommendations based on your interests and strengths!",14
+"Type 'start my test' to begin the personality assessment and discover the best career path for you!",11
