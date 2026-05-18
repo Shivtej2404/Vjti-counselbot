@@ -455,12 +455,12 @@ def main():
                     st.components.v1.html(file_html(pie, CDN), height=600)
 
                     st.markdown("<h3 style='color:#60a5fa'>📖 More on the Fields</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {streams[int(l[i])]}"):
                             st.write(df_grad['About'][int(l[i]) - 1])
 
                     st.markdown("<h3 style='color:#60a5fa'>💰 Average Annual Salary</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {streams[int(l[i])]}"):
                             st.write("Rs. " + str(df_grad['avgsal'][int(l[i]) - 1]))
 
@@ -470,7 +470,7 @@ def main():
                     st.components.v1.html(file_html(line, CDN), height=500)
 
                     st.markdown("<h3 style='color:#60a5fa'>📞 Expert Contacts</h3>", unsafe_allow_html=True)
-                    for i in range(4):
+                    for i in range(len(l)):
                         with st.expander(f"🔹 {streams[int(l[i])]}"):
                             xl = df_grad['contacts'][int(l[i]) - 1].split(",")
                             for k in xl:
