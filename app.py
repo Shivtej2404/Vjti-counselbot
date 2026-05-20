@@ -24,6 +24,15 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+# ─── Download NLTK Data ─────────────────────────────────────────────────────
+@st.cache_resource(show_spinner=False)
+def download_nltk_data():
+    nltk.download('wordnet', quiet=True)
+    nltk.download('stopwords', quiet=True)
+    nltk.download('omw-1.4', quiet=True)
+
+download_nltk_data()
+
 # ─── Page Config ────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="VJTI CounselBot",
